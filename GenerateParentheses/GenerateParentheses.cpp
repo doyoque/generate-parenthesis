@@ -13,6 +13,7 @@ public:
     };
 
 private:
+    // backtrace function
     void backtrace(std::vector<std::string>& res, std::string str, int start, int end, int max) {
         if (str.length() == max * 2) {
             res.push_back(str);
